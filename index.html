@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Timeline Generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="outer-container">
+        <div class="container">
+            <div class="days-container">
+                <p>Mon</p>
+                <p>Wed</p>
+                <p>Fri</p>
+            </div>
+
+            <div>
+                <div class="months-container">
+                    <p>Jan</p>
+                    <p>Feb</p>
+                    <p>Mar</p>
+                    <p>Apr</p>
+
+                    <p>May</p>
+                    <p>Jun</p>
+                    <p>Jul</p>
+                    <p>Aug</p>
+
+                    <p>Sep</p>
+                    <p>Oct</p>
+                    <p>Nov</p>
+                    <p>Dec</p>
+                </div>
+
+                <div class="grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <select name='slct' id="slct">
+        <option selected disabled>Choose Animation</option>
+        <option value="ltr">Left To Right (Default)</option>
+        <option value="ttb">Top To Bottom</option>
+        <option value="gs">Grayscale</option>
+        <option value="rb">Rainbow</option>
+    </select>  
+    <script  src="./script.js"></script>
+</body>
+</html>
