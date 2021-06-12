@@ -1,6 +1,7 @@
 # JS-Github-Timeline
+
+<img src='git.gif'>
+
 To Do:
-- Left To Right
-- Color
 - Variations
 <p>Updated: May 18, 2021</p>
